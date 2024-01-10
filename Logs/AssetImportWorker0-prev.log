@@ -15,7 +15,7 @@ C:/Users/horna733/Documents/Unity Projects-Adam/Sound Effects-adam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57702
+58182
 Successfully changed project path to: C:/Users/horna733/Documents/Unity Projects-Adam/Sound Effects-adam
 C:/Users/horna733/Documents/Unity Projects-Adam/Sound Effects-adam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/horna733/Documents/Unity Projects-Adam/Sound Effects-adam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3456] Host "[IP] 10.2.3.250 [Port] 0 [Flags] 2 [Guid] 3910473001 [EditorId] 3910473001 [Version] 1048832 [Id] WindowsEditor(7,CE105WD238870S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14152] Host "[IP] 10.2.3.250 [Port] 0 [Flags] 2 [Guid] 1203614356 [EditorId] 1203614356 [Version] 1048832 [Id] WindowsEditor(7,CE105WD238870S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3456] Host "[IP] 10.2.3.250 [Port] 0 [Flags] 2 [Guid] 3910473001 [EditorId] 3910473001 [Version] 1048832 [Id] WindowsEditor(7,CE105WD238870S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14152] Host "[IP] 10.2.3.250 [Port] 0 [Flags] 2 [Guid] 1203614356 [EditorId] 1203614356 [Version] 1048832 [Id] WindowsEditor(7,CE105WD238870S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 21.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005650 seconds.
+Registered in 0.008002 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 20.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.526 seconds
+- Completed reload, in  0.720 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (356ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (199ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (271ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (21ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003271 seconds.
+Registered in 0.004630 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.725 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (726ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (520ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (760ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (353ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1342 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (56.5 KB). Loaded Objects now: 1812.
+Unloading 16 unused Assets / (56.6 KB). Loaded Objects now: 1812.
 Memory consumption went from 62.5 MB to 62.4 MB.
-Total: 1.552900 ms (FindLiveObjects: 0.073600 ms CreateObjectMapping: 0.018200 ms MarkObjects: 1.408800 ms  DeleteObjects: 0.051700 ms)
+Total: 2.067800 ms (FindLiveObjects: 0.094100 ms CreateObjectMapping: 0.023700 ms MarkObjects: 1.876300 ms  DeleteObjects: 0.072700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,352 +167,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2317019.895582 seconds.
-  path: Assets/Scenes/ParkSettings.lighting
-  artifactKey: Guid(ab8ada44d1f29424fb2e6d1896d73514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ParkSettings.lighting using Guid(ab8ada44d1f29424fb2e6d1896d73514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffb18c418903e20ade88c7a5e214938') in 0.026245 seconds 
+  Time since last request: 2660946.360357 seconds.
+  path: Assets/Player/Player_Model.fbx
+  artifactKey: Guid(2db7e17401e08b94697ecd7acce75ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Player_Model.fbx using Guid(2db7e17401e08b94697ecd7acce75ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20afdca3645fb59746dfca8483ac75b') in 0.290115 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2338.724914 seconds.
-  path: Assets/Sounds/Alarms.wav
-  artifactKey: Guid(4c4d88be681695042bf00e8e51c57e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Alarms.wav using Guid(4c4d88be681695042bf00e8e51c57e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c89792005c9b6e690608099d947ec80') in 0.164470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/CartoonWhoosh2.wav
-  artifactKey: Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonWhoosh2.wav using Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96026bfa50e8b4e636c186942f7a019') in 0.023403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sounds/Impact TV With Sledge Hammer 04.wav
-  artifactKey: Guid(240dea15969494b11ae47c0387b32ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact TV With Sledge Hammer 04.wav using Guid(240dea15969494b11ae47c0387b32ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb1a7d9f13ed78d7c62ca05ab8e0ee8') in 0.026908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/Crash_Smash-Designed_Glass_Crash_Designed_037.wav
-  artifactKey: Guid(180c1ebabfe58a74ea649dedf9e15371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Crash_Smash-Designed_Glass_Crash_Designed_037.wav using Guid(180c1ebabfe58a74ea649dedf9e15371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e331b0fb552d7146237cbcdf1947da') in 0.018318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Ambience Downtown Area 01.wav
-  artifactKey: Guid(ad117b3e6acf44900aaa064a05ecf4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Ambience Downtown Area 01.wav using Guid(ad117b3e6acf44900aaa064a05ecf4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeec1f0b3df89cae019f568a7fc6333') in 0.028934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sounds/Animal Bird American Goldfinch Chirp 01.wav
-  artifactKey: Guid(25180c9d727e74088b81e7d8e9d06cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Animal Bird American Goldfinch Chirp 01.wav using Guid(25180c9d727e74088b81e7d8e9d06cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21eae2a76aa55280fe38ff319500fcc7') in 0.019647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/Impact Metal Hit Cement Pop Cans 01.wav
-  artifactKey: Guid(e70faa9d81f264905a53d14f47a6af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact Metal Hit Cement Pop Cans 01.wav using Guid(e70faa9d81f264905a53d14f47a6af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcfdeab338df13f1dfd47e600bb2b96') in 0.021100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Human Pirate Say Buried Treasure 01.wav
-  artifactKey: Guid(59a606605721848d2a44204278500e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Human Pirate Say Buried Treasure 01.wav using Guid(59a606605721848d2a44204278500e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68153f5b5d0be7eab5ec5671b4fe839') in 0.021943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/Human Female Cough 01.wav
-  artifactKey: Guid(9d67162f73eaa46fd847aa372f956e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Human Female Cough 01.wav using Guid(9d67162f73eaa46fd847aa372f956e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af91f3666bb5b2dafe94558252c6427') in 0.024645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/CartoonThud1.wav
-  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonThud1.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057a10e51642a392a1f7426fc92d83ef') in 0.023932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/CSFX_short-040.wav
-  artifactKey: Guid(27acb9c011df15c4cb6ff58b635ee196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CSFX_short-040.wav using Guid(27acb9c011df15c4cb6ff58b635ee196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6f82537e39654d44cb5bb368b7076c') in 0.021841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sounds/Crash_Smash-Designed_Mixed_Crash_Designed_013.wav
-  artifactKey: Guid(606f6a069733ea3429535c0cffffefcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Crash_Smash-Designed_Mixed_Crash_Designed_013.wav using Guid(606f6a069733ea3429535c0cffffefcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e640effbba79b96a7c44b10d72a8aff2') in 0.020436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sounds/Car_Pass-Bys_Steady-Mic_02.wav
-  artifactKey: Guid(ad5336149591c3247b90429ae44080db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Car_Pass-Bys_Steady-Mic_02.wav using Guid(ad5336149591c3247b90429ae44080db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f6c294e21cc9a01fc7e1fdee7dcab') in 0.018026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sounds/GlitchFX_02_Percussion_019.wav
-  artifactKey: Guid(8a02a5d3ba8733c42a19a5c14979e3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/GlitchFX_02_Percussion_019.wav using Guid(8a02a5d3ba8733c42a19a5c14979e3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaee18c7b6f910eff3bb4ddd2a2f0a2') in 0.022206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/Impact Rock Hit Broken Television Plastic 03.wav
-  artifactKey: Guid(b04090ce4a4434257a1dc6ba03a41d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact Rock Hit Broken Television Plastic 03.wav using Guid(b04090ce4a4434257a1dc6ba03a41d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa7706cbf52b231330a0340bf148b8') in 0.021688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sounds/CSFX_short-006.wav
-  artifactKey: Guid(cd5efdb448fd9564ab502ff906b89b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CSFX_short-006.wav using Guid(cd5efdb448fd9564ab502ff906b89b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7efee0659871e40dfa570eb7a0cc8d') in 0.019963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/CartoonThud2.wav
-  artifactKey: Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonThud2.wav using Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff48bce1d4fd2589b7625e22958ce08a') in 0.020292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Ambience Busy Traffic 01.wav
-  artifactKey: Guid(a4e4c8a4f2ce54709b3a00bdf2d2bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Ambience Busy Traffic 01.wav using Guid(a4e4c8a4f2ce54709b3a00bdf2d2bcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a7df96857f580bc8951f3f349984c3') in 0.020782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/Impact Can Garbage Can Dragged On Cement Floor 01.wav
-  artifactKey: Guid(bcb2c2bcfc4b745e19dabe38ce1f9a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact Can Garbage Can Dragged On Cement Floor 01.wav using Guid(bcb2c2bcfc4b745e19dabe38ce1f9a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bbbe1663ada7d92837b17a4a7ec188') in 0.021250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sounds/Human Pirate Say Yarr 01.wav
-  artifactKey: Guid(2b9566476dfea4dbfac26ef3cae8be29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Human Pirate Say Yarr 01.wav using Guid(2b9566476dfea4dbfac26ef3cae8be29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758788a48bcfb74b59d530c242b782b8') in 0.020332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sounds/CartoonRing.wav
-  artifactKey: Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonRing.wav using Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda31893d24d667fc3a076bc150c9a17') in 0.017441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sounds/CartoonWhoosh1.wav
-  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonWhoosh1.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e69532b3de7fec7cf7db9c18ae5942') in 0.016885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/Animal Dog Bark 26.wav
-  artifactKey: Guid(ccc0b93b9cf1c47318cc5ab4a975faaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Animal Dog Bark 26.wav using Guid(ccc0b93b9cf1c47318cc5ab4a975faaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05082b20a7ecd007768807379b8777bd') in 0.017519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sounds/CartoonTaDa.wav
-  artifactKey: Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonTaDa.wav using Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453a0b5b839014e43df7442d1534ddcb') in 0.018721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/CartoonWhomp.wav
-  artifactKey: Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonWhomp.wav using Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5e796ce1d51b6d016cd56c30db13c7') in 0.017795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Human Female Whistle 02.wav
-  artifactKey: Guid(49a8a738d67de47eab552d56e2c4fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Human Female Whistle 02.wav using Guid(49a8a738d67de47eab552d56e2c4fa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d7bd110579905e455f1a9dd721fae5') in 0.020055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sounds/CollectCoin.wav
-  artifactKey: Guid(73bac25bcf86445639f7f0b738b9fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CollectCoin.wav using Guid(73bac25bcf86445639f7f0b738b9fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4205df7eb1d12897e2a6892bdaa0eb') in 0.019779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sounds/Crash_Smash-Designed_Wood_Crash_Designed_037.wav
-  artifactKey: Guid(b08f83a76ccf9634aaea62b7bfa3e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Crash_Smash-Designed_Wood_Crash_Designed_037.wav using Guid(b08f83a76ccf9634aaea62b7bfa3e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cd11ace5b1ef14efefa83610dbf885') in 0.016531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Forest_Birds_Small-Stream.wav
-  artifactKey: Guid(6d1bdeb315ba83e4ab30ee3eabf7487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Forest_Birds_Small-Stream.wav using Guid(6d1bdeb315ba83e4ab30ee3eabf7487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54671b78ee51fc672a5d2fe5cb846765') in 0.017842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Impact Plastic Debris Hit By Wood Stick 01.wav
-  artifactKey: Guid(5eddf611ce0b142f8b864443383e079c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact Plastic Debris Hit By Wood Stick 01.wav using Guid(5eddf611ce0b142f8b864443383e079c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c569d96b9524ef07aae5c23e881d75e') in 0.018649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sounds/Dark_SciFi_Drone_Mixed_017.wav
-  artifactKey: Guid(1c92b6687371fe940a4357b53c0c40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Dark_SciFi_Drone_Mixed_017.wav using Guid(1c92b6687371fe940a4357b53c0c40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b99a7fca5e0f301ba41bdecdfca9ab') in 0.020682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sounds/Glitched-Loop_007_01.wav
-  artifactKey: Guid(f0fb49aac5802ad4ea94e980424dc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Glitched-Loop_007_01.wav using Guid(f0fb49aac5802ad4ea94e980424dc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c193af5258e70323fa0af1420a4a10ec') in 0.017357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/Impact Garbage Can Drag Over Dirt And Rock Short 01.wav
-  artifactKey: Guid(cee9d2a5c4a6941399e6d4c39e6858d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact Garbage Can Drag Over Dirt And Rock Short 01.wav using Guid(cee9d2a5c4a6941399e6d4c39e6858d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5417760df88807bfda19e3d1339077f9') in 0.017452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sounds/Film-Projector_Vintage_03.wav
-  artifactKey: Guid(2064b129616a52944a85ba5abad6a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Film-Projector_Vintage_03.wav using Guid(2064b129616a52944a85ba5abad6a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c3eb91db1a1c64a792212b598e5fe7') in 0.018178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sounds/GlitchFX_02_Percussion_049.wav
-  artifactKey: Guid(9cfd4243b220a0c46b1a7b040c8c3483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/GlitchFX_02_Percussion_049.wav using Guid(9cfd4243b220a0c46b1a7b040c8c3483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4d6b6ad927acfacb681fa51b7eec20') in 0.020540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sounds/Glitched-Loop_040_04.wav
-  artifactKey: Guid(4ec6cfddc9ffe3d4eaaa5973e99b0458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Glitched-Loop_040_04.wav using Guid(4ec6cfddc9ffe3d4eaaa5973e99b0458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fe16d07152079b8aab0e6f604a6874') in 0.017529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sounds/Cinematic_Transition_101.wav
-  artifactKey: Guid(a2a7bb00b9d167f4ca7dd201bd66420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Cinematic_Transition_101.wav using Guid(a2a7bb00b9d167f4ca7dd201bd66420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad30ab78649d0ce858fc9f357801223a') in 0.019232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sounds/Human Male Cough 02.wav
-  artifactKey: Guid(3b3759de653434bdc81ba82ef90361d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Human Male Cough 02.wav using Guid(3b3759de653434bdc81ba82ef90361d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8d94764cb9da19bbfefd801082bbee') in 0.016836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Ambience Children Group Beach Playground 01.wav
-  artifactKey: Guid(706ff97a336434cb69abc862c57d4b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Ambience Children Group Beach Playground 01.wav using Guid(706ff97a336434cb69abc862c57d4b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8068445fe9c09fc48050e9a71ae372cb') in 0.017476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sounds/Car_Idling-Mixture_ENGINE_04.wav
-  artifactKey: Guid(7d5cd73477cce50459108d2fa9bafc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Car_Idling-Mixture_ENGINE_04.wav using Guid(7d5cd73477cce50459108d2fa9bafc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7fee5bf9a014f7995a34972108c721') in 0.020662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sounds/CartoonPop.wav
-  artifactKey: Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/CartoonPop.wav using Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38c3d971c903df78a395a7173455292') in 0.015935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sounds/GlitchFX_01_Dirt_SFX_011.wav
-  artifactKey: Guid(eec8e85dd207b0d4ca24bfc100783147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/GlitchFX_01_Dirt_SFX_011.wav using Guid(eec8e85dd207b0d4ca24bfc100783147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939b37b5f59d40af1c552aa6b606dc99') in 0.017518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sounds/Impact Coins Shake And Drop To Ground 01.wav
-  artifactKey: Guid(cc7c1aa5005d64a4d9de98bc52f226b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Impact Coins Shake And Drop To Ground 01.wav using Guid(cc7c1aa5005d64a4d9de98bc52f226b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d31b68a9cb62f296a4e3af13261e779') in 0.019985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.409510 seconds.
-  path: Assets/Sounds/Just_Impacts_Extension-I_167.wav
-  artifactKey: Guid(cacd423b6968e4640bbfb43fc3823480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Just_Impacts_Extension-I_167.wav using Guid(cacd423b6968e4640bbfb43fc3823480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0195c3ec28e7b5cd9cd5c1601f7f6592') in 0.019885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sounds/Just_Whoosh_004.wav
-  artifactKey: Guid(6265a71f30a4f9f43a36dbb9b93cb20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Just_Whoosh_004.wav using Guid(6265a71f30a4f9f43a36dbb9b93cb20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5545bf86335ea1a9586d5d876b3c88e') in 0.030522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sounds/Just_Whoosh_033.wav
-  artifactKey: Guid(21e08c697da0a114897d22126120ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Just_Whoosh_033.wav using Guid(21e08c697da0a114897d22126120ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0de3649aa44c218d5332d1822ecd1e6') in 0.025736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/Just_Transitions_SciFi-040.wav
-  artifactKey: Guid(111c533e8d66a81408de090b0a93fd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Just_Transitions_SciFi-040.wav using Guid(111c533e8d66a81408de090b0a93fd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d9f318f836a01072d52f720e26317c') in 0.023283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/JustImpacts_DESIGNED_075.wav
-  artifactKey: Guid(2d25517971c2ae64999138c3f67fa1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/JustImpacts_DESIGNED_075.wav using Guid(2d25517971c2ae64999138c3f67fa1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd9f63e6b62b6fe16ca1eeb6a345cf8') in 0.019942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.932952 seconds.
-  path: Assets/Sounds/JustImpacts_PROCESSED_180.wav
-  artifactKey: Guid(c79615aaed50de24e82f17640b640c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/JustImpacts_PROCESSED_180.wav using Guid(c79615aaed50de24e82f17640b640c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cc79a84ba698eabe7e43b371b25a42') in 0.019990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/JustStones_Stones_Fine_Debris_010.wav
-  artifactKey: Guid(2a4295aff0d676049b1561ceb82d9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/JustStones_Stones_Fine_Debris_010.wav using Guid(2a4295aff0d676049b1561ceb82d9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea62f1892891f76498928d018978c21') in 0.023924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/JustImpacts_SIMPLE_336.wav
-  artifactKey: Guid(b299613ebddf5d24fa7e69083be88030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/JustImpacts_SIMPLE_336.wav using Guid(b299613ebddf5d24fa7e69083be88030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b647c1564db9c733caec7f38e2765057') in 0.020365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015458 seconds.
-  path: Assets/Sounds/JustWhoosh3_Whoosh_Fire_008.wav
-  artifactKey: Guid(7387dbd5cb7a1344db519bae272ac6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/JustWhoosh3_Whoosh_Fire_008.wav using Guid(7387dbd5cb7a1344db519bae272ac6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc0d9c6bcee5b36d72f9afc56b02f89') in 0.023089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sounds/JustWhoosh_Whoosh_22.wav
-  artifactKey: Guid(34cb14cfe16de7441981cd6164c81e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/JustWhoosh_Whoosh_22.wav using Guid(34cb14cfe16de7441981cd6164c81e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf2bca6026deb117725e0a311a68198') in 0.020576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sounds/Pass-By_Sports-Car_Single_015.wav
-  artifactKey: Guid(eccd6990856e8a441b41f3da1ed36664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Pass-By_Sports-Car_Single_015.wav using Guid(eccd6990856e8a441b41f3da1ed36664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97cd7dc84c0aa788076eadc613bb00a') in 0.024800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.711989 seconds.
-  path: Assets/Sounds/Transportation Air Brakes From Fire Truck 02.wav
-  artifactKey: Guid(9df176fbfcc8046b3a86a7029405ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Transportation Air Brakes From Fire Truck 02.wav using Guid(9df176fbfcc8046b3a86a7029405ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2322036d9638bb980d7f5a8b6fbb3b32') in 0.025444 seconds 
+  Time since last request: 89.217660 seconds.
+  path: Assets/SimpleTownLite/_Models/apartment_large_thin_short.fbx
+  artifactKey: Guid(2285374edce96c0429b698451775407c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTownLite/_Models/apartment_large_thin_short.fbx using Guid(2285374edce96c0429b698451775407c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcbfe1b508b3fafb50629d295b23c9e') in 0.203787 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Sounds/Transportation Truck Garbage Truck Drive By 01.wav
-  artifactKey: Guid(dffec29e9f254496cafa8bea280702d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Transportation Truck Garbage Truck Drive By 01.wav using Guid(dffec29e9f254496cafa8bea280702d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2bcf3ec1753a919e55ef0e966d0b0b') in 0.048306 seconds 
+  path: Assets/SimpleTownLite/_Materials/Building_BookStore.mat
+  artifactKey: Guid(4685236b0f345dc429665f84d9b64540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTownLite/_Materials/Building_BookStore.mat using Guid(4685236b0f345dc429665f84d9b64540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6664f32294ccb0b4ade1dc6ffd3151') in 0.068635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.257673 seconds.
-  path: Assets/Sounds/WhooshesImpacts2_Whooshes_032.wav
-  artifactKey: Guid(6d8b19a8e57868945867f703425301c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/WhooshesImpacts2_Whooshes_032.wav using Guid(6d8b19a8e57868945867f703425301c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28059dca4af20d74a68c524ba75c4588') in 0.019471 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimpleTownLite/_Prefabs/Building_Apartment.prefab
+  artifactKey: Guid(6aad3078276ab4d47916c4d88e1722cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTownLite/_Prefabs/Building_Apartment.prefab using Guid(6aad3078276ab4d47916c4d88e1722cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71a1ce957df6b7467ad0295bcdd4c53') in 0.043833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003321 seconds.
+  path: Assets/SimpleTownLite/_Textures/STL_Vehicle_HotdogTruck.png
+  artifactKey: Guid(7d5ce89f286524946a1240f7f3835312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTownLite/_Textures/STL_Vehicle_HotdogTruck.png using Guid(7d5ce89f286524946a1240f7f3835312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c78c86f03360df6e8d297e79363026') in 0.060515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimpleTownLite/_Models/hotdog_truck_seperate.fbx
+  artifactKey: Guid(f7b6388861fcc1c4dbe6f7a784be1ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTownLite/_Models/hotdog_truck_seperate.fbx using Guid(f7b6388861fcc1c4dbe6f7a784be1ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ae8be951e09488bcc19ba9d7363fa6') in 0.072480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimpleTownLite/_Materials/Building_Apartment_02.mat
+  artifactKey: Guid(91ba25c5e9aad2e4d8693d1840f12d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTownLite/_Materials/Building_Apartment_02.mat using Guid(91ba25c5e9aad2e4d8693d1840f12d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb30f9114f4bc8fce4d623172cb778bd') in 0.020249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Player/Animations/run.fbx
+  artifactKey: Guid(eed06740d41edba42acbe74890788034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Animations/run.fbx using Guid(eed06740d41edba42acbe74890788034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aff7a0a42c5b353124fa15a89620e1c') in 0.012568 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
