@@ -335,6 +335,7 @@
 "Assets/Scripts/Collect.cs"
 "Assets/Scripts/PlayerControls.cs"
 "Assets/Scripts/RotateHover.cs"
+"Assets/Scripts/SimpleCollectibleScript.cs"
 "Assets/Scripts/VehicleControl.cs"
 -langversion:9.0
 
